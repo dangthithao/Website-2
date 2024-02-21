@@ -1,0 +1,353 @@
+*{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.text{
+  background-color: black;
+  padding: 7px;
+  text-align: center;
+  width: 100%;
+}
+.text {
+  text-decoration: none;
+  color: white;
+}
+.menu{
+  padding: 15px;
+  display: flex;
+  border: 1px solid rgb(159, 152, 152);
+}
+.logo{
+  text-align: center;
+}
+.logo a{
+  color: black;
+  font-size: 35px;
+  margin-left: 300px;
+  font-weight: bold;
+}
+.logo a:hover{
+  color: black;
+  text-decoration: none;
+  font-style: italic;
+}
+.gio-hang{
+  display: flex;
+  width: 500px;
+}
+.sp{
+  width: 150px;
+  margin-top: 5px;
+}
+.sp a{
+  color: black;
+}
+.sp a:hover{
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+.anh{
+  margin: 10px;
+}
+.anh  a:hover img{
+  width: 120%;
+}
+.menu-tc ul{
+  font-size: 10px;
+  display: flex;
+}
+.menu-tc a:hover{
+  background-color: white;
+}
+.nav>li>a{
+  text-transform: uppercase;
+  color: black;
+}
+.nav li{
+  position: relative;
+  list-style:none;
+  text-align: left;
+}
+
+.nav li a{
+  padding: 15px;
+  line-height: 20px;
+  display: inline-block;
+}
+.trai img{
+  width: 200px;
+}
+
+.nav .sub-menu{
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 200px;
+  padding: 5px 20px;
+  text-align: left;
+  background-color: white;
+}
+.nav .sub-menu a{
+  color: black;
+}
+.nav .sub-menu a:hover{
+  color: black;
+  text-decoration: none;
+}
+.nav li:hover>.sub-menu{
+  display: block;
+}
+
+.nav>li>.sub-menu{
+  top: 40px;
+  left: 0;
+}
+.link{
+  display: flex;
+  width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.link a{
+  margin-top: 15px;
+  color: gainsboro;
+  text-decoration: none;
+  font-family: "SVN-Futura Medium", sans-serif;
+  font-size: 10px;
+  width: 55px;
+}
+.link a:hover{
+  color: black;
+  font-weight: bolder;
+  text-decoration: none;
+}
+.link p{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: normal;
+  color: gainsboro;
+  width: 10px;
+}
+.link h4{
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 10px;
+}
+.content{
+  width: 100%;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+.left{
+  width: 15%;
+  margin-left: 15px;
+}
+.tatca{
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.tatca a{
+  color: grey;
+}
+.tatca a:hover{
+  color: rgb(99, 97, 97);
+  text-decoration: none;
+}
+.thudong2021{
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.thudong2021 li{
+  list-style: none;
+  margin-top: 20px;
+}
+.thudong2021 a{
+  color: gray;
+}
+.thudong2021 a:hover{
+  color: rgb(99, 97, 97);
+  text-decoration: none;
+}
+.xuanhe2022{
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.xuanhe2022 li{
+  list-style: none;
+  margin-top: 20px;
+}
+.xuanhe2022 a{
+  color: gray;
+}
+.xuanhe2022 a:hover{
+  color: rgb(99, 97, 97);
+  text-decoration: none;
+}
+.right{
+  width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.sp1{
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pic {
+  position: relative;
+  display: inline-block;
+}
+
+.pic:hover .overlay {
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: black;
+  display: none;
+}
+
+.overlay-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.overlay-content h4{
+  margin-top: 180px;
+  font-size: 20px;
+  text-shadow: 1px 2px 2px #ffffff
+}
+.xem{
+  margin: auto;
+}
+.xem a{
+  color: black;
+}
+.xem h2{
+  font-size: 20px;
+}
+h2 {
+  width: 200px;
+  height: 30px;
+  display: block;
+  color: gray;
+  position: relative;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15px;
+  background-color: white;
+  z-index: 2;
+  padding-top: 5px;
+}
+h2:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: auto; /*change here*/
+  right: 0;/*change here*/
+  width: 0;
+  height: 100%;
+  background-color: black;
+  color: white;
+  transition: .5s;
+  z-index: -1;
+}
+h2:hover:before {
+  width: 100%;
+  left: 0;/*change here*/
+  right: auto;/*change here*/
+}
+.xem a:hover{
+  text-decoration: none;
+  color: white;
+  z-index: 1;
+}
+.footer{
+  margin-top: 100px;
+  border-top: 1px solid black;
+}
+.ve-chung-toi{
+  display: flex;
+  margin-left: auto;
+  margin-top: 50px;
+}
+.ve-chung-toi h3{
+  margin-left: 20px;
+  width: 200px;
+}
+.trai p{
+  margin-left: 20px;
+  width: 500px;
+}
+.phai{
+  display: flex;
+  flex-wrap: wrap;
+}
+.danh-muc {
+  width: 150px;
+  margin-left: 20px;
+}
+.danh-muc p{
+    word-wrap: break-word;
+    margin-left: 5px;
+}
+.danh-muc a{
+
+  margin-left: 10px;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: black;
+}
+.danh-muc a:hover{
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+.icon{
+  display: flex;
+}
+.icon img{
+  width: 50%;
+}
+.ket{
+  margin-top: 50px;
+  display: flex;
+  background-color: #AAA;
+}
+.levents{
+  flex: 2;
+}
+.tuyend{
+  flex: 1;
+  text-align: right;display: flex;
+  margin-top: 10px;
+}
+.tuyend a{
+  margin-right: 20px;
+  width: 150px;
+  color: black;
+}
+.tuyend a:hover{
+  font-weight: bold;
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+}
+

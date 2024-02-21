@@ -1,0 +1,507 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .text{
+    background-color: black;
+    padding: 7px;
+    text-align: center;
+    width: 100%;
+  }
+  .text {
+    text-decoration: none;
+    color: white;
+  }
+  .menu{
+    padding: 15px;
+    display: flex;
+   border: 1px solid rgb(159, 152, 152);
+  }
+  .logo{
+    text-align: center;
+  }
+  .logo a{
+    color: black;
+    font-size: 35px;
+    margin-left: 300px;
+    font-weight: bold;
+  }
+  .logo a:hover{
+    color: black;
+    text-decoration: none;
+    font-style: italic;
+  }
+  .gio-hang{
+    display: flex;
+    width: 500px;
+  }
+  .sp{
+    width: 150px;
+    margin-top: 5px;
+  }
+  .sp a{
+    color: black;
+  }
+  .sp a:hover{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+  }
+  .anh{
+    margin: 10px;
+  }
+  .anh  a:hover img{
+    width: 120%;
+  }
+  .menu-tc ul{
+    font-size: 10px;
+    display: flex;
+  }
+  .menu-tc a:hover{
+    background-color: white;
+  }
+  .nav>li>a{
+    text-transform: uppercase;
+    color: black;
+  }
+  .nav li{
+    position: relative;
+    list-style:none;
+    text-align: left;
+  }
+  
+  .nav li a{
+    padding: 15px;
+    line-height: 20px;
+    display: inline-block;
+  }
+  .trai img{
+    width: 200px;
+  }
+  
+  .nav .sub-menu{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 200px;
+    padding: 5px 20px;
+    text-align: left;
+    background-color: white;
+  }
+  .nav .sub-menu a{
+    color: black;
+  }
+  .nav .sub-menu a:hover{
+    color: black;
+    text-decoration: none;
+  }
+  .nav li:hover>.sub-menu{
+    display: block;
+  }
+  
+  .nav>li>.sub-menu{
+    top: 40px;
+    left: 0;
+  }
+  .banner{
+    width: 100%;
+}
+.banner img{
+    width: 100%;
+    height: 620px;
+}
+.bst a{
+    position: absolute;
+    bottom: 0;
+    color: black;
+    background-color: white;
+    width: 10%;
+    padding: 15px;
+}
+.bst{
+    text-align: center;
+}
+.bst a{
+    overflow: hidden;
+    width: 270px;
+}
+.bst a::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:black ;
+    left: -100%;
+    top: 0;
+    transition: all 0.3s ease-in-out;
+    z-index: -1;
+}
+.bst a:hover::before{
+    left: 0;
+}
+.bst a {
+    z-index: 10;
+}
+.bst a:hover{
+    color: white;
+    text-decoration: none;
+    box-shadow: 1px 1px 1px 1px #AAA;
+}
+.link{
+    display: flex;
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.link a{
+    margin-top: 15px;
+    color: gainsboro;
+    text-decoration: none;
+    font-family: "SVN-Futura Medium", sans-serif;
+    font-size: 10px;
+    width: 70px;
+}
+.link a:hover{
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.link p{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: normal;
+    color: gainsboro;
+    width: 10px;
+}
+.link h4{
+    margin-top: 15px;
+    font-family: "SVN-Futura Medium", sans-serif;
+    font-size: 10px;
+}
+.link h4{
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 10px;
+}
+.pic1{
+    width: 100%;
+    text-align: center;
+}
+.pic1 img{
+    width: 100%;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-left: auto;
+}
+.text1{
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.text11{
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.xem{
+    margin: auto;
+}
+.xem a{
+    color: black;
+}
+.xem h2{
+    font-size: 20px;
+}
+h2 {
+    width: 300px;
+    display: block;
+    color: black;
+    position: relative;
+    border: 1px solid black;
+    text-align: center;
+    margin: auto;
+    font-size: 15px;
+}
+h2:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: auto; /*change here*/
+    right: 0;/*change here*/
+    width: 0;
+    height: 100%;
+    background-color: black;
+    color: white;
+    transition: .25s;
+    z-index: -1;
+}
+h2:hover:before {
+    width: 100%;
+    left: auto;/*change here*/
+    right: 0;/*change here*/
+} 
+.xem a:hover{
+    text-decoration: none;
+    color: white;
+}
+.content1{
+    width: 1400px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 75px;
+}
+.content1 .text1{
+    width: 50%;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.content1 .text1 .text11{
+    width: 100%;
+    font-size: 18px;
+    text-align: left;
+    text-transform: uppercase;
+}
+.content1 .text1 .text12{
+    text-align: left;
+    margin-top: 25px;
+    font-size: 13px;
+}
+.content1 .pic1{
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.content2{
+    width: 1400px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 75px;
+}
+.content2 .text1{
+    width: 50%;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5%;
+}
+.content2 .text1 .text11{
+    width: 100%;
+    font-size: 18px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-left: 10%;
+}
+.content2 .text1 .text12{
+    text-align: left;
+    margin-top: 25px;
+    font-size: 13px;
+    margin-left: 10%;
+}
+.content2 .pic1{
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.content3{
+    width: 1400px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content3 .text1{
+    width: 50%;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5%;
+}
+.content3 .text1 .text11{
+    width: 100%;
+    font-size: 18px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-left: 10%;
+}
+.content3 .text1 .text12{
+    text-align: left;
+    margin-top: 25px;
+    font-size: 13px;
+    margin-left: 10%;
+}
+.content3 .pic1{
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.div{
+    width: 100%;
+    border-bottom: 1px solid gainsboro;
+}
+.danhsach{
+    margin-top: 50px;
+    font-weight: bolder;
+    text-align: center;
+}
+.sanphammoi{
+    margin-bottom: 50px;
+  }
+  .sanpham{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+  .sanpham li{
+    width: 350px;
+  }
+  .hinhanh img{
+    width: 300px;
+  }
+  .hinhanh {
+    height: auto;
+      overflow: hidden;
+      position: relative;
+      width: 300px;
+      height: 350px;
+      margin-left:25px;
+      margin-right:25px;
+  }
+  .hinhanh img {
+      max-width: 100%;
+      transition: all 1s;
+      width: 100%;
+  }
+  
+  .hinhanh .img-change {
+      position: absolute;
+      top: 0;
+      right: 0;
+      opacity: 1;
+  }
+  .hinhanh:hover .img-change {
+      opacity: 0;
+  }
+  .mau{
+    display: flex;
+    width: 100px;
+    margin-left: 250px;
+  }
+  .col-mau {
+    margin: 1px;
+    padding: 2.5px ;
+    text-align: right;
+    width: 20px;
+    margin-top: 0;
+  }
+  .col-mau .pickcolor{
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+  }
+  .gia{
+    width: 350px;
+  }
+  .gia a{
+    color: #7F7F7F;
+  }
+  .gia p{
+    text-align: left;
+    font-size: 20px;
+    margin-left: 10px;
+    color: gray;
+    text-decoration: none;
+  }
+  .sanpham-li{
+    margin-left: 10px;
+  }
+  .sanpham a{
+    text-decoration: none;
+  }
+  .sanpham .sanpham-li .gia a:hover{
+    color: black;
+    text-decoration: none;
+  }
+  .ve-chung-toi{
+    display: flex;
+    margin-left: auto;
+    margin-left: auto;
+  }
+  .footer{
+    margin-top: 150px;
+  }
+  .ve-chung-toi{
+    margin-top: 50px;
+  }
+  .ve-chung-toi h3{
+    margin-left: 20px;
+    width: 200px;
+  }
+  .trai p{
+    margin-left: 20px;
+    width: 500px;
+  }
+  .phai{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .danh-muc {
+    width: 150px;
+    margin-left: 20px;
+  }
+  .danh-muc p{
+      word-wrap: break-word;
+      margin-left: 5px;
+  }
+  .danh-muc a{
+  
+    margin-left: 10px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+  }
+  .danh-muc a:hover{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .icon{
+    display: flex;
+  }
+  .icon img{
+    width: 50%;
+  }
+  .ket{
+    margin-top: 50px;
+    display: flex;
+    background-color: #AAA;
+  }
+  .levents{
+    flex: 2;
+  }
+  .tuyend{
+    flex: 1;
+    text-align: right;display: flex;
+    margin-top: 10px;
+  }
+  .tuyend a{
+    margin-right: 20px;
+    width: 150px;
+    color: black;
+  }
+  .tuyend a:hover{
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+  }
+  

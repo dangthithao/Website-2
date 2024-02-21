@@ -1,0 +1,537 @@
+*{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: "SVN-Futura Medium", sans-serif;
+}
+.text{
+  background-color: black;
+  padding: 7px;
+  text-align: center;
+  width: 100%;
+}
+.text {
+  text-decoration: none;
+  color: white;
+}
+.cart {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 11;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  opacity: 1;
+}
+.menu{
+  padding: 15px;
+  display: flex;
+ border: 1px solid rgb(159, 152, 152);
+}
+.logo{
+  text-align: center;
+}
+.logo a{
+  color: black;
+  font-size: 35px;
+  margin-left: 300px;
+  font-weight: bold;
+}
+.logo a:hover{
+  color: black;
+  text-decoration: none;
+  font-style: italic;
+}
+.gio-hang{
+  display: flex;
+  width: 500px;
+}
+.sp{
+  width: 150px;
+  margin-top: 5px;
+}
+.sp a{
+  color: black;
+}
+.sp a:hover{
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+.anh{
+  margin: 10px;
+}
+.anh  a:hover img{
+  width: 120%;
+}
+.menu-tc{
+  border-bottom:1px solid #AAA ;
+}
+.menu-tc ul{
+  font-size: 10px;
+  display: flex;
+}
+.menu-tc a:hover{
+  background-color: white;
+}
+.nav>li>a{
+  text-transform: uppercase;
+  color: black;
+}
+.nav li{
+  position: relative;
+  list-style:none;
+  text-align: left;
+}
+
+.nav li a{
+  padding: 15px;
+  line-height: 20px;
+  display: inline-block;
+}
+.trai img{
+  width: 200px;
+}
+
+.nav .sub-menu{
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 200px;
+  padding: 5px 20px;
+  text-align: left;
+  background-color: white;
+  box-shadow: 1px 1px 1px 1px #AAA;
+}
+.nav .sub-menu a{
+  color: black;
+}
+.nav .sub-menu a:hover{
+  color: black;
+  text-decoration: none;
+}
+.nav li:hover>.sub-menu{
+  display: block;
+}
+
+.nav>li>.sub-menu{
+  top: 40px;
+  left: 0;
+}
+.content{
+  display: block;
+}
+.banner img{
+  height: 80%;
+}
+.bst a{
+position: absolute;
+bottom: 0;
+color: black;
+background-color: white;
+width: 10%;
+padding: 15px;
+}
+.bst{
+  text-align: center;
+}
+.bst a{
+  overflow: hidden;
+  width: 200px;
+}
+.bst a::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color:black ;
+  left: -100%;
+  top: 0;
+  transition: all 0.3s ease-in-out;
+  z-index: -1;
+}
+.bst a:hover::before{
+  left: 0;
+}
+.bst a {
+  z-index: 10;
+}
+.bst a:hover{
+  color: white;
+  text-decoration: none;
+  box-shadow: 1px 1px 1px 1px #AAA;
+}
+.content p{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 50px;
+}
+.sanphammoi{
+  margin-bottom: 50px;
+}
+.sanpham{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.sanpham li{
+  width: 350px;
+}
+.hinhanh img{
+  width: 300px;
+}
+.hinhanh {
+  height: auto;
+    overflow: hidden;
+    position: relative;
+    width: 300px;
+    height: 350px;
+    margin-left:25px;
+    margin-right:25px;
+}
+.hinhanh img {
+    max-width: 100%;
+    transition: all 1s;
+}
+
+.hinhanh .img-change {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 1;
+}
+.hinhanh:hover .img-change {
+    opacity: 0;
+}
+.mau{
+  display: flex;
+  width: 100px;
+  margin-left: 250px;
+}
+.col-mau {
+  margin: 1px;
+  padding: 2.5px ;
+  text-align: right;
+  width: 20px;
+  margin-top: 0;
+}
+.gia{
+  width: 350px;
+}
+.gia p{
+  text-align: left;
+  font-size: 14px;
+  margin-left: 30px;
+  color:#AAA;
+  text-decoration: none;
+}
+.sanpham-li{
+  margin-left: 10px;
+  text-align: center;
+}
+.sanpham a{
+  text-decoration: none;
+}
+.sanpham a:hover p{
+  color: #AAA;
+  text-decoration: none;
+}
+.text p{
+  border: 1px solid black;
+}
+.xem{
+  margin: auto;
+}
+.xem a{
+  color: black;
+}
+.xem h2{
+  font-size: 20px;
+}
+h2 {
+  width: 300px;
+  display: block;
+  color: black;
+  position: relative;
+  border: 1px solid black;
+  text-align: center;
+  margin: auto;
+  font-size: 15px;
+  }
+  h2:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: auto; /*change here*/
+    right: 0;/*change here*/
+    width: 0;
+    height: 100%;
+    background-color: black;
+    color: white;
+    transition: .25s;
+    z-index: -1;
+  }
+  h2:hover:before {
+    width: 100%;
+    left: 0;/*change here*/
+    right: auto;/*change here*/
+  }
+   
+  .xem a:hover{
+    text-decoration: none;
+     color: white;
+  }
+.bstm {
+  position: absolute;
+  top: 360%;
+}
+.bstm a{
+  position: absolute;
+  bottom: 0;
+  color: black;
+ background-color: white;
+  width: 200px;
+  padding: 10px;
+  }
+  .bstm{
+    text-align: center;
+  }
+  .bstm a{
+    overflow: hidden;
+  }
+  .bstm a::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:black ;
+    left: 100%;
+    top: 0;
+    transition: all 0.3s ease-in-out;
+    z-index: -1;
+  }
+  .bstm a:hover::before{
+    left: 0;
+  }
+  .bstm a {
+    z-index: 10;
+  }
+  .bstm a:hover{
+    color: white;
+    text-decoration: none;
+    box-shadow: 1px 1px 1px 1px #AAA;
+  }
+  .bo-phoi{
+    margin-bottom: 50px;
+  }
+  .bo-phoi1{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+  .bo-phoi1 li{
+    width: 700px;
+  }
+  .bo1 img{
+    width: 700px;
+  }
+  .bo1 {
+    height: auto;
+      overflow: hidden;
+      position: relative;
+      width: 700px;
+      height: 1000px;
+      margin-left:25px;
+      margin-right:25px;
+  }
+  .bo1 img {
+      max-width: 100%;
+      transition: all 1s;
+  }
+  
+  .bo1 .img-change {
+      position: absolute;
+      top: 0;
+      right: 0;
+      opacity: 1;
+  }
+  .bo1:hover .img-change {
+      opacity: 0;
+  }
+  .thong-tin{
+    text-align: center;
+  }
+  .thong-tin p{
+    font-weight: bold;
+   margin: auto;
+    width: 500px;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+  }
+  .bo-phoi1 a{
+    text-decoration: none;
+  }
+  .bo-phoi1 a:hover p{
+    color: brown;
+  }
+  .xem-bo-phoi a{
+    color: darkgray;
+    font-size: 15px;
+  }
+  .xem-bo-phoi {
+    width: 300px;
+    display: block;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    }
+    .xem-bo-phoi a:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: auto; 
+      right: 0;
+      width: 0;
+      height: 100%;
+      background-color: black;
+      color: white;
+      transition: .25s;
+      z-index: -1;
+    }
+.xem-bo-phoi a:hover:before {
+      width: 100%;
+      left: 0;
+      right: auto;
+    }
+     
+.xem-bo-phoi a:hover{
+      text-decoration: none;
+       color: white;
+    }
+.dia-chi{
+  display: flex;
+}
+.left {
+  flex: 1;
+  margin: 10px;
+}
+.right{
+  flex: 1;
+  margin: 10px;
+}
+.right h4{
+  font-weight: bold;
+}
+.right input{
+      border-bottom: 1px solid #c0c0c0;
+      padding: 1rem 0;
+      transition: 0.2s linear;
+      appearance: none;
+      border-top-style: hidden;
+        border-right-style: hidden;
+        border-left-style: hidden;
+        margin-bottom: 10px;
+}
+.right input:focus{
+  outline: none;
+    border-bottom:1px solid black ;
+}
+.tt{
+  display: flex;
+}
+.email{
+  margin-right: 5px;
+}
+.sdt{
+  margin-left: 5px;
+}
+.loinhan{
+  padding: 2px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #c0c0c0;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+}
+.gui{
+  margin-top: 20px;
+  width: 150px;
+ 
+}
+.gui input{
+   background-color: black;
+  color: white;
+}
+.gui input:hover{
+  box-shadow: 2px 2px 2px 2px #AAA;
+}
+.ve-chung-toi{
+  display: flex;
+}
+.ve-chung-toi h3{
+  margin-left: 20px;
+  width: 200px;
+}
+.trai p{
+  margin-left: 20px;
+  width: 500px;
+}
+.phai{
+  display: flex;
+  flex-wrap: wrap;
+}
+.danh-muc {
+  width: 150px;
+  margin-left: 20px;
+}
+.danh-muc p{
+    word-wrap: break-word;
+    margin-left: 5px;
+}
+.danh-muc a{
+
+  margin-left: 10px;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: black;
+}
+.icon{
+  display: flex;
+}
+.icon img{
+  width: 50%;
+}
+.ket{
+  margin-top: 50px;
+  display: flex;
+  background-color: #AAA;
+}
+.levents{
+  flex: 2;
+}
+.tuyend{
+  flex: 1;
+  text-align: right;display: flex;
+  margin-top: 10px;
+}
+.tuyend a{
+  margin-right: 20px;
+  width: 150px;
+  color: black;
+}
+.tuyend a:hover{
+  font-weight: bold;
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+}

@@ -1,0 +1,426 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text {
+    background-color: black;
+    padding: 7px;
+    text-align: center;
+    width: 100%;
+}
+
+.text {
+    text-decoration: none;
+    color: white;
+}
+
+.menu {
+    padding: 15px;
+    border: 1px solid rgb(159, 152, 152);
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo a {
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.logo a:hover {
+    color: black;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.gio-hang {
+    display: flex;
+    width: 430px;
+    position: absolute;
+    right: 0;
+    justify-content: space-evenly;
+    top: 65px;
+}
+
+.sp {
+    width: 150px;
+}
+
+.sp a {
+    color: black;
+}
+
+.sp a:hover {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.anh {
+    width: 25px;
+}
+.anh img{
+    width: 25px;
+}
+.anh a:hover img {
+    width: 120%;
+}
+
+.menu-tc ul {
+    font-size: 10px;
+    display: flex;
+}
+
+.menu-tc a:hover {
+    background-color: white;
+}
+
+.nav {
+    justify-content: space-between;
+}
+
+.nav>li>a {
+    text-transform: uppercase;
+    color: black;
+}
+
+li {
+    list-style: none;
+    position: relative;
+}
+
+.nav > li {
+    position: relative;
+    list-style: none;
+    text-align: left;
+    float: left;
+    margin-right: 70px;
+}
+
+.nav li a {
+    padding: 15px;
+    line-height: 20px;
+    display: inline-block;
+}
+
+.trai img {
+    width: 200px;
+}
+
+.nav .sub-menu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 200px;
+    padding: 5px 20px;
+    text-align: left;
+    background-color: white;
+}
+
+.nav .sub-menu a {
+    color: black;
+}
+
+.nav .sub-menu a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.nav li:hover>.sub-menu {
+    display: block;
+}
+
+.nav>li>.sub-menu {
+    top: 40px;
+    left: 0;
+}
+.link {
+    display: flex;
+    margin-left: 20px;
+}
+.link a{
+    margin-top: 12px;
+    color: gainsboro;
+    text-decoration: none;
+    font-family: "SVN-Futura Medium", sans-serif;
+    font-size: 12px;
+}
+
+.link a:hover{
+    color: black;
+    font-weight: bolder;
+}
+
+.link > p{
+    width: fit-content;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 14px;
+    font-size: 12px;
+    font-weight: normal;
+    color: gainsboro;
+    font-family: "SVN-Futura Medium", sans-serif;
+}
+.link > h4{
+    margin-top: 15px;
+    font-family: "SVN-Futura Medium", sans-serif;
+    font-size: 12px;
+    color: black;
+    font-weight: 600;
+}
+.ve-chung-toi {
+    display: flex;
+    padding: 130px 0px;
+    justify-content: space-between;
+    border-top: 1px solid #ccc;
+}
+
+.ve-chung-toi h3 {
+    margin-left: 20px;
+    width: 200px;
+}
+
+.trai p {
+    margin-left: 20px;
+    width: 500px;
+}
+
+.trai {
+    width: 50%;
+}
+.phai {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    justify-content: space-around;
+}
+
+.danh-muc {
+    width: 150px;
+    margin-left: 20px;
+}
+
+.danh-muc p {
+    word-wrap: break-word;
+    margin-left: 5px;
+}
+
+.danh-muc a {
+
+    margin-left: 10px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.icon {
+    display: flex;
+}
+
+.icon img {
+}
+
+.ket {
+    margin-top: 50px;
+    display: flex;
+    background-color: #AAA;
+}
+
+.levents {
+    flex: 2;
+    padding: 0 20px;
+}
+
+.tuyend {
+    flex: 1;
+    text-align: right;
+    display: flex;
+    margin-top: 10px;
+}
+
+.tuyend a {
+    margin-right: 20px;
+    width: 150px;
+    color: black;
+}
+
+.tuyend a:hover {
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+/* body */
+
+.body {
+    padding: 40px 0;
+}
+
+.info_body {
+    margin-left: 30px;
+}
+
+.detail_body {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.address > h3 {
+    padding-bottom: 32px;
+    font-size: 16px;
+}
+
+.tel, .email, .chat, .time {
+    padding-bottom: 22px;
+    display: flex;
+    font-size: 14px;
+}
+
+.detail_tel, .detail_email, .detail_chat, .detail_time{
+    width: 50%;
+}
+
+.detail_tel > a, .detail_email > a, .detail_chat > a, .detail_time > a{
+    text-decoration: none;
+    color: black;
+}
+
+.call, .send {
+    padding: 7px 50px;
+    background-color: #47474c;
+}
+
+.call > a, .send > a{
+    display: block;
+    width: 70px;
+    text-decoration: none;
+    color: white;
+}
+
+.call:hover, .send:hover {
+    cursor: pointer;
+    background-color: black;
+    transition: all .25s;
+}
+
+.map {
+    width: 50%;
+}
+
+.store {
+    width: 50%;
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.store:last-child {
+    margin-bottom: 0px;
+}
+
+.store > img {
+    display: block;
+    margin-right: 30px;
+}
+
+.info_store {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info_store > h2 {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.address_store {
+    font-size: 14px;
+}
+
+.address_store > span {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.btn_xemcuahang {
+    padding: 10px 50px;
+    background-color: #47474c;
+    color: white;
+    text-decoration: none !important;
+    font-size: 14px;
+    text-align: center;
+    width: fit-content;
+}
+
+.btn_xemcuahang:hover {
+    cursor: pointer;
+    background-color: black;
+    transition: all .25s;
+    color: white;
+}
+
+.contact {
+    width: 100%;
+    margin-top: 60px;
+}
+
+.contact h3 {
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+
+.input_hoten,
+.input_email,
+.input_sdt {
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.contact textarea {
+    padding: 20px 25px;
+    outline: none;
+    border: 1px solid #ccc;
+    margin-bottom: 32px;
+}
+
+.contact form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn_send {
+    padding: 10px 50px;
+    background-color: #47474c;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+    width: fit-content;
+}
+
+.btn_send:hover {
+    cursor: pointer;
+    background-color: black;
+    transition: all .25s;
+}
+
+.input_email,
+.input_sdt {
+    width: 50%;
+}
+
+.input_sdt {
+    margin-left: 30px;
+}

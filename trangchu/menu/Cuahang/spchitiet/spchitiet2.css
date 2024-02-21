@@ -1,0 +1,293 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.body{
+    position: relative;
+}
+  .text{
+    background-color: black;
+    padding: 7px;
+    text-align: center;
+    width: 100%;
+  }
+  .text {
+    text-decoration: none;
+    color: white;
+  }
+  .menu{
+    padding: 15px;
+    display: flex;
+   border: 1px solid rgb(159, 152, 152);
+  }
+  .logo{
+    text-align: center;
+  }
+  .logo a{
+    color: black;
+    font-size: 35px;
+    margin-left: 300px;
+    font-weight: bold;
+  }
+  .logo a:hover{
+    color: black;
+    text-decoration: none;
+    font-style: italic;
+  }
+  .gio-hang{
+    display: flex;
+    width: 500px;
+  }
+  .sp{
+    width: 150px;
+    margin-top: 5px;
+  }
+  .sp a{
+    color: black;
+  }
+  .sp a:hover{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+  }
+  .anh{
+    margin: 10px;
+  }
+  .anh  a:hover img{
+    width: 120%;
+  }
+
+  .menu-tc{
+    border-bottom:1px solid #AAA ;
+  }
+  .menu-tc ul{
+    font-size: 10px;
+    display: flex;
+  }
+  .menu-tc a:hover{
+    background-color: white;
+  }
+  .nav>li>a{
+    text-transform: uppercase;
+    color: black;
+  }
+  .nav li{
+    position: relative;
+    list-style:none;
+    text-align: left;
+  }
+  
+  .nav li a{
+    padding: 15px;
+    line-height: 20px;
+    display: inline-block;
+  }
+  .trai img{
+    width: 200px;
+  }
+  
+  .nav .sub-menu{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 200px;
+    padding: 5px 20px;
+    text-align: left;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px #AAA;
+    z-index: 1;
+  }
+  .nav .sub-menu a{
+    color: black;
+  }
+  .nav .sub-menu a:hover{
+    color: black;
+    text-decoration: none;
+  }
+  .nav li:hover>.sub-menu{
+    display: block;
+  }
+  
+  .nav>li>.sub-menu{
+    top: 40px;
+    left: 0;
+  }
+.trang-chuul{
+    display: flex;
+    width: 500px;
+    list-style: none;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.trang-chuul li{
+    text-align: center;
+}
+.trang-chuli{
+    width: 20px;
+}
+.trang-chuul a{
+    color: #AAA;
+}
+.trang-chuul a:hover{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.trangchu-li{
+    width: 1500px;
+}
+.spchitiet{
+    display: flex;
+}
+.left{
+    flex: 1;
+    display: flex;
+}
+.sp1{
+    flex: 1;
+    border-right: 1px solid black;
+}
+.sp1 img{
+    width: 20%;
+    display: block;
+    margin-left: 80%;
+    margin-top: 10px;
+}
+.sp2{
+    flex: 2;
+}
+.sp2 img{
+    width: 150%;
+}
+.right{
+    flex: 1;
+    margin-left: 15%;
+    font-size: 20px;
+}
+.tt{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.sp{
+    display: flex;
+}
+.sp img{
+    width: 50%;
+}
+.sp-1{
+    border: 1px solid #AAA;
+}
+.Size ul{
+    display: flex;
+    width: 300px;
+    list-style: none;
+    font-size: 20px;
+    color: #817e7e;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.Size li{
+    border: 1px solid #AAA;
+    text-align: center;
+    margin-right: 5px;
+}
+.Size a{
+  color: #000;
+}
+.Size a:hover{
+  color: #000;
+  text-decoration: none;
+}
+.soluong{
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.them{
+    width: 200px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding: 15px;
+    text-align: center;
+}
+.them:hover{
+    box-shadow: 1px 2px 1px 2px #AAA;
+}
+.thongtin p{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    border-bottom: 1px solid #AAA;
+}
+.footer{
+  border-top:1px solid #AAA ;
+}
+  .ve-chung-toi{
+    display: flex;
+    margin-top: 100px;
+  }
+  .ve-chung-toi h3{
+    margin-left: 20px;
+    width: 200px;
+  }
+  .trai p{
+    margin-left: 20px;
+    width: 500px;
+  }
+  .phai{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .danh-muc {
+    width: 150px;
+    margin-left: 20px;
+  }
+  .danh-muc p{
+      word-wrap: break-word;
+      margin-left: 5px;
+  }
+  .danh-muc a{
+  
+    margin-left: 10px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+  }
+  .icon{
+    display: flex;
+  }
+  .icon img{
+    width: 50%;
+  }
+  .ket{
+    margin-top: 50px;
+    display: flex;
+    background-color: #AAA;
+  }
+  .levents{
+    flex: 2;
+  }
+  .tuyend{
+    flex: 1;
+    text-align: right;display: flex;
+    margin-top: 10px;
+  }
+  .tuyend a{
+    margin-right: 20px;
+    width: 150px;
+    color: black;
+  }
+  .tuyend a:hover{
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+  }
+  

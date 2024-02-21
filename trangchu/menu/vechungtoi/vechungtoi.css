@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .text{
+    background-color: black;
+    padding: 7px;
+    text-align: center;
+    width: 100%;
+  }
+  .text {
+    text-decoration: none;
+    color: white;
+  }
+  .menu{
+    padding: 15px;
+    display: flex;
+    border: 1px solid rgb(159, 152, 152);
+  }
+  .logo{
+    text-align: center;
+  }
+  .logo a{
+    color: black;
+    font-size: 35px;
+    margin-left: 300px;
+    font-weight: bold;
+  }
+  .logo a:hover{
+    color: black;
+    text-decoration: none;
+    font-style: italic;
+  }
+  .gio-hang{
+    display: flex;
+    width: 500px;
+  }
+  .sp{
+    width: 150px;
+    margin-top: 5px;
+  }
+  .sp a{
+    color: black;
+  }
+  .sp a:hover{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+  }
+  .anh{
+    margin: 10px;
+  }
+  .anh  a:hover img{
+    width: 120%;
+  }
+  .menu-tc{
+    border-bottom:1px solid #AAA ;
+  }
+  .menu-tc ul{
+    font-size: 10px;
+    display: flex;
+    
+  }
+  .menu-tc a:hover{
+    background-color: white;
+  }
+  .nav>li>a{
+    text-transform: uppercase;
+    color: black;
+  }
+  .nav li{
+    position: relative;
+    list-style:none;
+    text-align: left;
+  }
+  
+  .nav li a{
+    padding: 15px;
+    line-height: 20px;
+    display: inline-block;
+  }
+  .trai img{
+    width: 200px;
+  }
+  
+  .nav .sub-menu{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 200px;
+    padding: 5px 20px;
+    text-align: left;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px #AAA;
+  }
+  .nav .sub-menu a{
+    color: black;
+  }
+  .nav .sub-menu a:hover{
+    color: black;
+    text-decoration: none;
+  }
+  .nav li:hover>.sub-menu{
+    display: block;
+  }
+  
+  .nav>li>.sub-menu{
+    top: 40px;
+    left: 0;
+  }
+.link{
+    display: flex;
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.link a{
+    margin-top: 15px;
+    color: gainsboro;
+    text-decoration: none;
+    font-family: "SVN-Futura Medium", sans-serif;
+    font-size: 10px;
+    width: 55px;
+}
+.link a:hover{
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.link p{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: normal;
+    color: gainsboro;
+    width: 10px;
+}
+.link h4{
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 10px;
+}
+.text1{
+    text-align: center;
+    font-family:  "SVN-Futura Medium", sans-serif;
+}
+.text1 h3{
+    font-weight: normal;
+}
+.text11{
+    font-weight: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 32px;
+    color: rgb(193, 193, 193);
+}
+.text12{
+    color: #000000;
+    font-family: "FuturaNowHeadline-XLight", Sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    font-style: normal;
+    text-decoration: none;
+    color: rgb(193, 193, 193);
+}
+.pic1{
+    text-align: center;
+    width: 100%;
+}
+.pic1 img{
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 1500px;
+    width: 100%;
+}
+.text2{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    align-items: center;
+    vertical-align: middle;
+}
+.text21{
+    display: flex;
+    width: 1500px;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+}
+.text211{
+    width: 60%;
+    text-align: center;
+    color: #000000;
+    font-family: "FuturaNowHeadline-XLight", Sans-serif;
+    font-size: 32px;
+    font-weight: 100;
+    line-height: 23px;
+    color: rgb(193, 193, 193);
+}
+.text212{
+    width: 40%;
+    color: #000000;
+    font-family: "FuturaNowHeadline-XLight", Sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 23px;
+    margin-top: 20px;
+    color: rgb(193, 193, 193);
+    margin-top: -5px;
+}
+.pic2{
+    text-align: center;
+    width: 100%;
+}
+.pic2 img{
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 1500px;
+    width: 100%;
+}
+.text3{
+    width: 100%;
+    height: 400px;
+    align-items: center;
+}
+.text31{
+    display: flex;
+    width: 1500px;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+}
+.text311{
+    width: 60%;
+    text-align: center;
+    color: #000000;
+    font-family: "FuturaNowHeadline-XLight", Sans-serif;
+    font-size: 32px;
+    font-weight: 100;
+    line-height: 23px;
+    color: rgb(193, 193, 193);
+}
+.text312{
+    width: 40%;
+    color: #000000;
+    font-family: "FuturaNowHeadline-XLight", Sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 23px;
+    margin-top: 20px;
+    color: rgb(193, 193, 193);
+}
+.pic3{
+    text-align: center;
+    width: 100%;
+}
+.pic3 img{
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 1500px;
+    width: 100%;
+}
+.text4{
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+}
+.text41{
+    display: flex;
+    width: 1500px;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+
+}
+.text411{
+    width: 60%;
+    text-align: center;
+    color: #000000;
+    font-family: "FuturaNowHeadline-XLight", Sans-serif;
+    font-size: 32px;
+    font-weight: 100;
+    line-height: 23px;
+    color: rgb(193, 193, 193);
+}
+.text412{
+    width: 40%;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 23px;
+    margin-top: 20px;
+    color: rgb(193, 193, 193);
+}
+.ve-chung-toi{
+    display: flex;
+    margin-left: auto;
+    margin-left: auto;
+  }
+  .ve-chung-toi h3{
+    margin-left: 20px;
+    width: 200px;
+  }
+  .trai p{
+    margin-left: 20px;
+    width: 500px;
+  }
+  .phai{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .danh-muc {
+    width: 150px;
+    margin-left: 20px;
+  }
+  .danh-muc p{
+      word-wrap: break-word;
+      margin-left: 5px;
+  }
+  .danh-muc a{
+  
+    margin-left: 10px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+  }
+  .icon{
+    display: flex;
+  }
+  .icon img{
+    width: 50%;
+  }
+  .ket{
+    margin-top: 50px;
+    display: flex;
+    background-color: #AAA;
+  }
+  .levents{
+    flex: 2;
+  }
+  .tuyend{
+    flex: 1;
+    text-align: right;display: flex;
+    margin-top: 10px;
+  }
+  .tuyend a{
+    margin-right: 20px;
+    width: 150px;
+    color: black;
+  }
+  .tuyend a:hover{
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+  }
+  

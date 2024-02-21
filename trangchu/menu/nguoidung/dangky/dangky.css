@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .text{
+    background-color: black;
+    padding: 7px;
+    text-align: center;
+    width: 100%;
+  }
+  .text {
+    text-decoration: none;
+    color: white;
+  }
+  .menu{
+    padding: 15px;
+    display: flex;
+   border: 1px solid rgb(159, 152, 152);
+  }
+  .logo{
+    text-align: center;
+  }
+  .logo a{
+    color: black;
+    font-size: 35px;
+    margin-left: 300px;
+    font-weight: bold;
+  }
+  .logo a:hover{
+    color: black;
+    text-decoration: none;
+    font-style: italic;
+  }
+  .gio-hang{
+    display: flex;
+    width: 500px;
+  }
+  .sp{
+    width: 150px;
+    margin-top: 5px;
+  }
+  .sp a{
+    color: black;
+  }
+  .sp a:hover{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+  }
+  .anh{
+    margin: 10px;
+  }
+  .anh  a:hover img{
+    width: 120%;
+  }
+  .menu-tc{
+    border-bottom:1px solid #AAA ;
+  }
+  .menu-tc ul{
+    font-size: 10px;
+    display: flex;
+  }
+  .menu-tc a:hover{
+    background-color: white;
+  }
+  .nav>li>a{
+    text-transform: uppercase;
+    color: black;
+  }
+  .nav li{
+    position: relative;
+    list-style:none;
+    text-align: left;
+  }
+  
+  .nav li a{
+    padding: 15px;
+    line-height: 20px;
+    display: inline-block;
+  }
+  .trai img{
+    width: 200px;
+  }
+  
+  .nav .sub-menu{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 200px;
+    padding: 5px 20px;
+    text-align: left;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px #AAA;
+  }
+  .nav .sub-menu a{
+    color: black;
+  }
+  .nav .sub-menu a:hover{
+    color: black;
+    text-decoration: none;
+  }
+  .nav li:hover>.sub-menu{
+    display: block;
+  }
+  
+  .nav>li>.sub-menu{
+    top: 40px;
+    left: 0;
+  }
+  .content{
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+.content h4{
+    font-weight: bold;
+    text-align: center;
+}
+.thong-tin{
+    text-align: center;
+}
+  .thong-tin  input{
+    border-bottom: 1px solid #c0c0c0;
+    padding: 1rem 0;
+    transition: 0.2s linear;
+    appearance: none;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-top-style:hidden;
+    margin-bottom: 10px;
+    width: 500px;
+}
+.thong-tin input:focus{
+    outline: none;
+    border-bottom:1px solid black ;
+}
+.dong-y{
+    display: flex;
+    list-style: none;
+    width: 500px;
+    margin: auto;
+}
+.dong-yli{
+    width: 1500px;
+    color: #AAA;
+}
+.content button{
+    width: 200px;
+    margin-left: 53%;
+    margin-top: 20px;
+    padding: 8px;
+    background-color: #636161;
+    color: white;
+    border: none;
+}
+.content p{
+    margin: auto;
+    width: 500px;
+    word-wrap: break-word;
+    margin-top: 30px;
+}
+.content p a:hover{
+    text-decoration: none;
+    color: rgb(107, 107, 233);
+}
+.footer{
+    border-top: 1px solid #AAA;
+}
+.ve-chung-toi{
+    margin-top: 100px;
+}
+  .tt{
+    display: flex;
+  }
+  .email{
+    margin-right: 5px;
+  }
+  .sdt{
+    margin-left: 5px;
+  }
+  .loinhan{
+    padding: 2px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #c0c0c0;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+  }
+  .gui{
+    margin-top: 20px;
+    width: 150px;
+   
+  }
+  .gui input{
+     background-color: black;
+    color: white;
+  }
+  .gui input:hover{
+    box-shadow: 2px 2px 2px 2px #AAA;
+  }
+  .ve-chung-toi{
+    display: flex;
+  }
+  .ve-chung-toi h3{
+    margin-left: 20px;
+    width: 200px;
+  }
+  .trai p{
+    margin-left: 20px;
+    width: 500px;
+  }
+  .phai{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .danh-muc {
+    width: 150px;
+    margin-left: 20px;
+  }
+  .danh-muc p{
+      word-wrap: break-word;
+      margin-left: 5px;
+  }
+  .danh-muc a{
+  
+    margin-left: 10px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+  }
+  .icon{
+    display: flex;
+  }
+  .icon img{
+    width: 50%;
+  }
+  .ket{
+    margin-top: 50px;
+    display: flex;
+    background-color: #AAA;
+  }
+  .levents{
+    flex: 2;
+  }
+  .tuyend{
+    flex: 1;
+    text-align: right;display: flex;
+    margin-top: 10px;
+  }
+  .tuyend a{
+    margin-right: 20px;
+    width: 150px;
+    color: black;
+  }
+  .tuyend a:hover{
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+  }
+  
